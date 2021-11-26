@@ -3,52 +3,129 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEC2DDC5A61559421D1FECDF /* Pods_DISBYU_SpecificBathroomAppClip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986FB82ED3B5D9B433090668 /* Pods_DISBYU_SpecificBathroomAppClip.framework */; };
+		DF39B4A2B0C7442E1300A2D3 /* Pods_DISBYU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0933D1A6EC9F5089FE25EB2 /* Pods_DISBYU.framework */; };
+		EB134D5425675B74002671A7 /* Bathroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB134D5325675B74002671A7 /* Bathroom.swift */; };
+		EB134D5925677304002671A7 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB134D5825677304002671A7 /* Info.swift */; };
+		EB134D5E25677713002671A7 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB134D5D25677713002671A7 /* Review.swift */; };
+		EB134D6E25679D1F002671A7 /* InsertionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB134D6D25679D1F002671A7 /* InsertionResult.swift */; };
 		EB37C3122564A98600E795BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37C3112564A98600E795BA /* AppDelegate.swift */; };
 		EB37C3142564A98600E795BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37C3132564A98600E795BA /* SceneDelegate.swift */; };
-		EB37C3162564A98600E795BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37C3152564A98600E795BA /* ViewController.swift */; };
+		EB37C3162564A98600E795BA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37C3152564A98600E795BA /* MapViewController.swift */; };
 		EB37C3192564A98600E795BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB37C3172564A98600E795BA /* Main.storyboard */; };
 		EB37C31B2564A98700E795BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB37C31A2564A98700E795BA /* Assets.xcassets */; };
 		EB37C31E2564A98700E795BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB37C31C2564A98700E795BA /* LaunchScreen.storyboard */; };
-		EB37C3292564A98800E795BA /* DISBYUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37C3282564A98800E795BA /* DISBYUTests.swift */; };
-		EB37C3342564A98800E795BA /* DISBYUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37C3332564A98800E795BA /* DISBYUUITests.swift */; };
+		EB37C3482564AA7500E795BA /* FakeServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37C3472564AA7500E795BA /* FakeServer.swift */; };
+		EB37C34D2564EE7800E795BA /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37C34C2564EE7800E795BA /* DataStore.swift */; };
+		EB37C3522565B4D900E795BA /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37C3512565B4D900E795BA /* Building.swift */; };
+		EB3C41C7258D464D0001C208 /* BathroomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3C41C6258D464D0001C208 /* BathroomTableViewController.swift */; };
+		EB580338259BE914006B68A2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB580337259BE913006B68A2 /* LoginViewController.swift */; };
+		EB58034325A29942006B68A2 /* UserReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB58034225A29942006B68A2 /* UserReviewCell.swift */; };
+		EB58034825A30028006B68A2 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB58034725A30028006B68A2 /* UserInfo.swift */; };
+		EB58034D25A316C0006B68A2 /* UserReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB58034C25A316C0006B68A2 /* UserReview.swift */; };
+		EB7B13CD259BD9BD00CA45D9 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7B13CC259BD9BD00CA45D9 /* Globals.swift */; };
+		EB8A91A1256FA8FE001A89E6 /* Leader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8A91A0256FA8FE001A89E6 /* Leader.swift */; };
+		EB8A91A6256FADAF001A89E6 /* LeaderBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8A91A5256FADAF001A89E6 /* LeaderBoardViewController.swift */; };
+		EB9D94722586D65200B42960 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB9D94712586D65200B42960 /* GoogleService-Info.plist */; };
+		EBADC268258E16E0002B3265 /* BathroomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBADC267258E16E0002B3265 /* BathroomCell.swift */; };
+		EBB0294625AB50C800A6B23A /* PlugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB0294525AB50C800A6B23A /* PlugViewController.swift */; };
+		EBBC93792571C4D0001259C7 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBC93782571C4D0001259C7 /* UserViewController.swift */; };
+		EBCD7F96256CA78C00FAE00E /* BathroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCD7F95256CA78C00FAE00E /* BathroomViewController.swift */; };
+		EBCD7F9B256CBEC900FAE00E /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCD7F9A256CBEC900FAE00E /* ReviewCell.swift */; };
+		EBCD7FA5256DF05400FAE00E /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCD7FA4256DF05400FAE00E /* ReviewViewController.swift */; };
+		EBF11C96262FA254009DD012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF11C95262FA254009DD012 /* AppDelegate.swift */; };
+		EBF11C98262FA254009DD012 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF11C97262FA254009DD012 /* SceneDelegate.swift */; };
+		EBF11C9A262FA254009DD012 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF11C99262FA254009DD012 /* ViewController.swift */; };
+		EBF11C9D262FA254009DD012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF11C9B262FA254009DD012 /* Main.storyboard */; };
+		EBF11C9F262FA256009DD012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF11C9E262FA256009DD012 /* Assets.xcassets */; };
+		EBF11CA2262FA256009DD012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF11CA0262FA256009DD012 /* LaunchScreen.storyboard */; };
+		EBF11CA7262FA256009DD012 /* SpecificBathroomAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = EBF11C93262FA254009DD012 /* SpecificBathroomAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EBF11CC0262FA374009DD012 /* IndividualBathroomReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF11CBF262FA374009DD012 /* IndividualBathroomReview.swift */; };
+		EBF11CC4262FA3F4009DD012 /* IndividualBathroomReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF11CC3262FA3F4009DD012 /* IndividualBathroomReviewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EB37C3252564A98800E795BA /* PBXContainerItemProxy */ = {
+		EBF11CA5262FA256009DD012 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EB37C3062564A98600E795BA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EB37C30D2564A98600E795BA;
-			remoteInfo = DISBYU;
-		};
-		EB37C3302564A98800E795BA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EB37C3062564A98600E795BA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EB37C30D2564A98600E795BA;
-			remoteInfo = DISBYU;
+			remoteGlobalIDString = EBF11C92262FA254009DD012;
+			remoteInfo = SpecificBathroomAppClip;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EB97162D262A40FF00073D83 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				EBF11CA7262FA256009DD012 /* SpecificBathroomAppClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		05195991E5827BD0A55F6A62 /* Pods-DISBYUTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DISBYUTests.release.xcconfig"; path = "Target Support Files/Pods-DISBYUTests/Pods-DISBYUTests.release.xcconfig"; sourceTree = "<group>"; };
+		50335688AEC516F7C7591573 /* Pods_DISBYU_DISBYUUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DISBYU_DISBYUUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		625FE4BDD8437C3D80BCBDAC /* Pods_DISBYUTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DISBYUTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F29A643E3703A7294197512 /* Pods-DISBYUTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DISBYUTests.debug.xcconfig"; path = "Target Support Files/Pods-DISBYUTests/Pods-DISBYUTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77ED503F138473326286357E /* Pods-DISBYU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DISBYU.debug.xcconfig"; path = "Target Support Files/Pods-DISBYU/Pods-DISBYU.debug.xcconfig"; sourceTree = "<group>"; };
+		986FB82ED3B5D9B433090668 /* Pods_DISBYU_SpecificBathroomAppClip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DISBYU_SpecificBathroomAppClip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13113B7C7365A341CC989BF /* Pods-DISBYU-DISBYUUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DISBYU-DISBYUUITests.release.xcconfig"; path = "Target Support Files/Pods-DISBYU-DISBYUUITests/Pods-DISBYU-DISBYUUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B72D14B5A57E120BA686D9B4 /* Pods-DISBYU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DISBYU.release.xcconfig"; path = "Target Support Files/Pods-DISBYU/Pods-DISBYU.release.xcconfig"; sourceTree = "<group>"; };
+		C0933D1A6EC9F5089FE25EB2 /* Pods_DISBYU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DISBYU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8BE69D045DEB46C3FF9E61 /* Pods-DISBYU-SpecificBathroomAppClip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DISBYU-SpecificBathroomAppClip.debug.xcconfig"; path = "Target Support Files/Pods-DISBYU-SpecificBathroomAppClip/Pods-DISBYU-SpecificBathroomAppClip.debug.xcconfig"; sourceTree = "<group>"; };
+		D0486E88E500C13422541976 /* Pods-DISBYU-SpecificBathroomAppClip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DISBYU-SpecificBathroomAppClip.release.xcconfig"; path = "Target Support Files/Pods-DISBYU-SpecificBathroomAppClip/Pods-DISBYU-SpecificBathroomAppClip.release.xcconfig"; sourceTree = "<group>"; };
+		E3BC1ED6E778BFE14288E64A /* Pods-DISBYU-DISBYUUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DISBYU-DISBYUUITests.debug.xcconfig"; path = "Target Support Files/Pods-DISBYU-DISBYUUITests/Pods-DISBYU-DISBYUUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB134D5325675B74002671A7 /* Bathroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bathroom.swift; sourceTree = "<group>"; };
+		EB134D5825677304002671A7 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		EB134D5D25677713002671A7 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		EB134D6D25679D1F002671A7 /* InsertionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionResult.swift; sourceTree = "<group>"; };
 		EB37C30E2564A98600E795BA /* DISBYU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DISBYU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB37C3112564A98600E795BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB37C3132564A98600E795BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EB37C3152564A98600E795BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB37C3152564A98600E795BA /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		EB37C3182564A98600E795BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB37C31A2564A98700E795BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB37C31D2564A98700E795BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB37C31F2564A98700E795BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB37C3242564A98800E795BA /* DISBYUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DISBYUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB37C3282564A98800E795BA /* DISBYUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DISBYUTests.swift; sourceTree = "<group>"; };
-		EB37C32A2564A98800E795BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB37C32F2564A98800E795BA /* DISBYUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DISBYUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB37C3332564A98800E795BA /* DISBYUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DISBYUUITests.swift; sourceTree = "<group>"; };
-		EB37C3352564A98800E795BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB37C3472564AA7500E795BA /* FakeServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeServer.swift; sourceTree = "<group>"; };
+		EB37C34C2564EE7800E795BA /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		EB37C3512565B4D900E795BA /* Building.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
+		EB3C41C6258D464D0001C208 /* BathroomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BathroomTableViewController.swift; sourceTree = "<group>"; };
+		EB580337259BE913006B68A2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EB58034225A29942006B68A2 /* UserReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReviewCell.swift; sourceTree = "<group>"; };
+		EB58034725A30028006B68A2 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		EB58034C25A316C0006B68A2 /* UserReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReview.swift; sourceTree = "<group>"; };
+		EB7B13CC259BD9BD00CA45D9 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		EB8A91A0256FA8FE001A89E6 /* Leader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leader.swift; sourceTree = "<group>"; };
+		EB8A91A5256FADAF001A89E6 /* LeaderBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardViewController.swift; sourceTree = "<group>"; };
+		EB9D94712586D65200B42960 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EBADC267258E16E0002B3265 /* BathroomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BathroomCell.swift; sourceTree = "<group>"; };
+		EBB0294525AB50C800A6B23A /* PlugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlugViewController.swift; sourceTree = "<group>"; };
+		EBBC93782571C4D0001259C7 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		EBCD7F95256CA78C00FAE00E /* BathroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BathroomViewController.swift; sourceTree = "<group>"; };
+		EBCD7F9A256CBEC900FAE00E /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		EBCD7FA4256DF05400FAE00E /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		EBF11C93262FA254009DD012 /* SpecificBathroomAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpecificBathroomAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF11C95262FA254009DD012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBF11C97262FA254009DD012 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBF11C99262FA254009DD012 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBF11C9C262FA254009DD012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBF11C9E262FA256009DD012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF11CA1262FA256009DD012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBF11CA3262FA256009DD012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF11CA4262FA256009DD012 /* SpecificBathroomAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpecificBathroomAppClip.entitlements; sourceTree = "<group>"; };
+		EBF11CBF262FA374009DD012 /* IndividualBathroomReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualBathroomReview.swift; sourceTree = "<group>"; };
+		EBF11CC3262FA3F4009DD012 /* IndividualBathroomReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualBathroomReviewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,33 +133,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF39B4A2B0C7442E1300A2D3 /* Pods_DISBYU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB37C3212564A98800E795BA /* Frameworks */ = {
+		EBF11C90262FA254009DD012 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB37C32C2564A98800E795BA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BEC2DDC5A61559421D1FECDF /* Pods_DISBYU_SpecificBathroomAppClip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DF9C40CEE2DD1E8B553673D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77ED503F138473326286357E /* Pods-DISBYU.debug.xcconfig */,
+				B72D14B5A57E120BA686D9B4 /* Pods-DISBYU.release.xcconfig */,
+				E3BC1ED6E778BFE14288E64A /* Pods-DISBYU-DISBYUUITests.debug.xcconfig */,
+				A13113B7C7365A341CC989BF /* Pods-DISBYU-DISBYUUITests.release.xcconfig */,
+				6F29A643E3703A7294197512 /* Pods-DISBYUTests.debug.xcconfig */,
+				05195991E5827BD0A55F6A62 /* Pods-DISBYUTests.release.xcconfig */,
+				CE8BE69D045DEB46C3FF9E61 /* Pods-DISBYU-SpecificBathroomAppClip.debug.xcconfig */,
+				D0486E88E500C13422541976 /* Pods-DISBYU-SpecificBathroomAppClip.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E1954838B7C92C7397C8C15C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0933D1A6EC9F5089FE25EB2 /* Pods_DISBYU.framework */,
+				50335688AEC516F7C7591573 /* Pods_DISBYU_DISBYUUITests.framework */,
+				625FE4BDD8437C3D80BCBDAC /* Pods_DISBYUTests.framework */,
+				986FB82ED3B5D9B433090668 /* Pods_DISBYU_SpecificBathroomAppClip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EB37C3052564A98600E795BA = {
 			isa = PBXGroup;
 			children = (
 				EB37C3102564A98600E795BA /* DISBYU */,
-				EB37C3272564A98800E795BA /* DISBYUTests */,
-				EB37C3322564A98800E795BA /* DISBYUUITests */,
+				EBF11C94262FA254009DD012 /* SpecificBathroomAppClip */,
 				EB37C30F2564A98600E795BA /* Products */,
+				0DF9C40CEE2DD1E8B553673D /* Pods */,
+				E1954838B7C92C7397C8C15C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				EB37C30E2564A98600E795BA /* DISBYU.app */,
-				EB37C3242564A98800E795BA /* DISBYUTests.xctest */,
-				EB37C32F2564A98800E795BA /* DISBYUUITests.xctest */,
+				EBF11C93262FA254009DD012 /* SpecificBathroomAppClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,33 +197,118 @@
 		EB37C3102564A98600E795BA /* DISBYU */ = {
 			isa = PBXGroup;
 			children = (
-				EB37C3112564A98600E795BA /* AppDelegate.swift */,
-				EB37C3132564A98600E795BA /* SceneDelegate.swift */,
-				EB37C3152564A98600E795BA /* ViewController.swift */,
-				EB37C3172564A98600E795BA /* Main.storyboard */,
-				EB37C31A2564A98700E795BA /* Assets.xcassets */,
-				EB37C31C2564A98700E795BA /* LaunchScreen.storyboard */,
+				EB7B13CC259BD9BD00CA45D9 /* Globals.swift */,
 				EB37C31F2564A98700E795BA /* Info.plist */,
+				EB9DB012260D548B0091826A /* Old Server */,
+				EB9DB011260D547B0091826A /* System */,
+				EB9DB00A260D54570091826A /* Views */,
+				EB9DB009260D54420091826A /* Models */,
+				EB9DB005260D54090091826A /* Controllers */,
 			);
 			path = DISBYU;
 			sourceTree = "<group>";
 		};
-		EB37C3272564A98800E795BA /* DISBYUTests */ = {
+		EB9DB005260D54090091826A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				EB37C3282564A98800E795BA /* DISBYUTests.swift */,
-				EB37C32A2564A98800E795BA /* Info.plist */,
+				EB9DB019260D54E80091826A /* MapView */,
+				EB9DB01A260D55000091826A /* BathroomView */,
+				EBCD7FA4256DF05400FAE00E /* ReviewViewController.swift */,
+				EB9DB01B260D55180091826A /* UserView */,
+				EB580337259BE913006B68A2 /* LoginViewController.swift */,
+				EB8A91A5256FADAF001A89E6 /* LeaderBoardViewController.swift */,
+				EBB0294525AB50C800A6B23A /* PlugViewController.swift */,
 			);
-			path = DISBYUTests;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		EB37C3322564A98800E795BA /* DISBYUUITests */ = {
+		EB9DB009260D54420091826A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				EB37C3332564A98800E795BA /* DISBYUUITests.swift */,
-				EB37C3352564A98800E795BA /* Info.plist */,
+				EB37C3512565B4D900E795BA /* Building.swift */,
+				EB134D5325675B74002671A7 /* Bathroom.swift */,
+				EB8A91A0256FA8FE001A89E6 /* Leader.swift */,
+				EB134D5825677304002671A7 /* Info.swift */,
+				EB58034725A30028006B68A2 /* UserInfo.swift */,
+				EB134D5D25677713002671A7 /* Review.swift */,
+				EB58034C25A316C0006B68A2 /* UserReview.swift */,
+				EB134D6D25679D1F002671A7 /* InsertionResult.swift */,
 			);
-			path = DISBYUUITests;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EB9DB00A260D54570091826A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB37C3172564A98600E795BA /* Main.storyboard */,
+				EB37C31C2564A98700E795BA /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EB9DB011260D547B0091826A /* System */ = {
+			isa = PBXGroup;
+			children = (
+				EB37C31A2564A98700E795BA /* Assets.xcassets */,
+				EB9D94712586D65200B42960 /* GoogleService-Info.plist */,
+				EB37C3112564A98600E795BA /* AppDelegate.swift */,
+				EB37C3132564A98600E795BA /* SceneDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		EB9DB012260D548B0091826A /* Old Server */ = {
+			isa = PBXGroup;
+			children = (
+				EB37C3472564AA7500E795BA /* FakeServer.swift */,
+				EB37C34C2564EE7800E795BA /* DataStore.swift */,
+			);
+			path = "Old Server";
+			sourceTree = "<group>";
+		};
+		EB9DB019260D54E80091826A /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				EB37C3152564A98600E795BA /* MapViewController.swift */,
+				EB3C41C6258D464D0001C208 /* BathroomTableViewController.swift */,
+				EBADC267258E16E0002B3265 /* BathroomCell.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		EB9DB01A260D55000091826A /* BathroomView */ = {
+			isa = PBXGroup;
+			children = (
+				EBCD7F95256CA78C00FAE00E /* BathroomViewController.swift */,
+				EBCD7F9A256CBEC900FAE00E /* ReviewCell.swift */,
+			);
+			path = BathroomView;
+			sourceTree = "<group>";
+		};
+		EB9DB01B260D55180091826A /* UserView */ = {
+			isa = PBXGroup;
+			children = (
+				EBBC93782571C4D0001259C7 /* UserViewController.swift */,
+				EB58034225A29942006B68A2 /* UserReviewCell.swift */,
+			);
+			path = UserView;
+			sourceTree = "<group>";
+		};
+		EBF11C94262FA254009DD012 /* SpecificBathroomAppClip */ = {
+			isa = PBXGroup;
+			children = (
+				EBF11C95262FA254009DD012 /* AppDelegate.swift */,
+				EBF11C97262FA254009DD012 /* SceneDelegate.swift */,
+				EBF11C99262FA254009DD012 /* ViewController.swift */,
+				EBF11CC3262FA3F4009DD012 /* IndividualBathroomReviewCell.swift */,
+				EBF11CBF262FA374009DD012 /* IndividualBathroomReview.swift */,
+				EBF11C9B262FA254009DD012 /* Main.storyboard */,
+				EBF11C9E262FA256009DD012 /* Assets.xcassets */,
+				EBF11CA0262FA256009DD012 /* LaunchScreen.storyboard */,
+				EBF11CA3262FA256009DD012 /* Info.plist */,
+				EBF11CA4262FA256009DD012 /* SpecificBathroomAppClip.entitlements */,
+			);
+			path = SpecificBathroomAppClip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,54 +318,41 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB37C3382564A98800E795BA /* Build configuration list for PBXNativeTarget "DISBYU" */;
 			buildPhases = (
+				F6E62377C2C3CD108697AAB4 /* [CP] Check Pods Manifest.lock */,
 				EB37C30A2564A98600E795BA /* Sources */,
 				EB37C30B2564A98600E795BA /* Frameworks */,
 				EB37C30C2564A98600E795BA /* Resources */,
+				EB97162D262A40FF00073D83 /* Embed App Clips */,
+				8F57685358F11C0EB663FE14 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EBF11CA6262FA256009DD012 /* PBXTargetDependency */,
 			);
 			name = DISBYU;
 			productName = DISBYU;
 			productReference = EB37C30E2564A98600E795BA /* DISBYU.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EB37C3232564A98800E795BA /* DISBYUTests */ = {
+		EBF11C92262FA254009DD012 /* SpecificBathroomAppClip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB37C33B2564A98800E795BA /* Build configuration list for PBXNativeTarget "DISBYUTests" */;
+			buildConfigurationList = EBF11CA8262FA256009DD012 /* Build configuration list for PBXNativeTarget "SpecificBathroomAppClip" */;
 			buildPhases = (
-				EB37C3202564A98800E795BA /* Sources */,
-				EB37C3212564A98800E795BA /* Frameworks */,
-				EB37C3222564A98800E795BA /* Resources */,
+				EA15B846304C8B1FEBA04F57 /* [CP] Check Pods Manifest.lock */,
+				EBF11C8F262FA254009DD012 /* Sources */,
+				EBF11C90262FA254009DD012 /* Frameworks */,
+				EBF11C91262FA254009DD012 /* Resources */,
+				715637C5FC1C9845ABFB9B9A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EB37C3262564A98800E795BA /* PBXTargetDependency */,
 			);
-			name = DISBYUTests;
-			productName = DISBYUTests;
-			productReference = EB37C3242564A98800E795BA /* DISBYUTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		EB37C32E2564A98800E795BA /* DISBYUUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EB37C33E2564A98800E795BA /* Build configuration list for PBXNativeTarget "DISBYUUITests" */;
-			buildPhases = (
-				EB37C32B2564A98800E795BA /* Sources */,
-				EB37C32C2564A98800E795BA /* Frameworks */,
-				EB37C32D2564A98800E795BA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EB37C3312564A98800E795BA /* PBXTargetDependency */,
-			);
-			name = DISBYUUITests;
-			productName = DISBYUUITests;
-			productReference = EB37C32F2564A98800E795BA /* DISBYUUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = SpecificBathroomAppClip;
+			productName = SpecificBathroomAppClip;
+			productReference = EBF11C93262FA254009DD012 /* SpecificBathroomAppClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 /* End PBXNativeTarget section */
 
@@ -190,19 +360,14 @@
 		EB37C3062564A98600E795BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					EB37C30D2564A98600E795BA = {
 						CreatedOnToolsVersion = 12.2;
 					};
-					EB37C3232564A98800E795BA = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = EB37C30D2564A98600E795BA;
-					};
-					EB37C32E2564A98800E795BA = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = EB37C30D2564A98600E795BA;
+					EBF11C92262FA254009DD012 = {
+						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
@@ -220,8 +385,7 @@
 			projectRoot = "";
 			targets = (
 				EB37C30D2564A98600E795BA /* DISBYU */,
-				EB37C3232564A98800E795BA /* DISBYUTests */,
-				EB37C32E2564A98800E795BA /* DISBYUUITests */,
+				EBF11C92262FA254009DD012 /* SpecificBathroomAppClip */,
 			);
 		};
 /* End PBXProject section */
@@ -232,66 +396,156 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB37C31E2564A98700E795BA /* LaunchScreen.storyboard in Resources */,
+				EB9D94722586D65200B42960 /* GoogleService-Info.plist in Resources */,
 				EB37C31B2564A98700E795BA /* Assets.xcassets in Resources */,
 				EB37C3192564A98600E795BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB37C3222564A98800E795BA /* Resources */ = {
+		EBF11C91262FA254009DD012 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB37C32D2564A98800E795BA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				EBF11CA2262FA256009DD012 /* LaunchScreen.storyboard in Resources */,
+				EBF11C9F262FA256009DD012 /* Assets.xcassets in Resources */,
+				EBF11C9D262FA254009DD012 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		715637C5FC1C9845ABFB9B9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DISBYU-SpecificBathroomAppClip/Pods-DISBYU-SpecificBathroomAppClip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DISBYU-SpecificBathroomAppClip/Pods-DISBYU-SpecificBathroomAppClip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DISBYU-SpecificBathroomAppClip/Pods-DISBYU-SpecificBathroomAppClip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F57685358F11C0EB663FE14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DISBYU/Pods-DISBYU-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DISBYU/Pods-DISBYU-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DISBYU/Pods-DISBYU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA15B846304C8B1FEBA04F57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DISBYU-SpecificBathroomAppClip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6E62377C2C3CD108697AAB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DISBYU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB37C30A2564A98600E795BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB37C3162564A98600E795BA /* ViewController.swift in Sources */,
+				EB37C3162564A98600E795BA /* MapViewController.swift in Sources */,
+				EB134D5925677304002671A7 /* Info.swift in Sources */,
+				EBCD7FA5256DF05400FAE00E /* ReviewViewController.swift in Sources */,
+				EB134D5E25677713002671A7 /* Review.swift in Sources */,
+				EB37C3522565B4D900E795BA /* Building.swift in Sources */,
+				EBBC93792571C4D0001259C7 /* UserViewController.swift in Sources */,
+				EB7B13CD259BD9BD00CA45D9 /* Globals.swift in Sources */,
+				EB8A91A1256FA8FE001A89E6 /* Leader.swift in Sources */,
+				EB580338259BE914006B68A2 /* LoginViewController.swift in Sources */,
+				EB58034325A29942006B68A2 /* UserReviewCell.swift in Sources */,
+				EBB0294625AB50C800A6B23A /* PlugViewController.swift in Sources */,
+				EB37C3482564AA7500E795BA /* FakeServer.swift in Sources */,
 				EB37C3122564A98600E795BA /* AppDelegate.swift in Sources */,
+				EB37C34D2564EE7800E795BA /* DataStore.swift in Sources */,
+				EB58034D25A316C0006B68A2 /* UserReview.swift in Sources */,
+				EB134D5425675B74002671A7 /* Bathroom.swift in Sources */,
+				EB134D6E25679D1F002671A7 /* InsertionResult.swift in Sources */,
+				EBCD7F9B256CBEC900FAE00E /* ReviewCell.swift in Sources */,
+				EBCD7F96256CA78C00FAE00E /* BathroomViewController.swift in Sources */,
+				EB3C41C7258D464D0001C208 /* BathroomTableViewController.swift in Sources */,
+				EBADC268258E16E0002B3265 /* BathroomCell.swift in Sources */,
+				EB8A91A6256FADAF001A89E6 /* LeaderBoardViewController.swift in Sources */,
+				EB58034825A30028006B68A2 /* UserInfo.swift in Sources */,
 				EB37C3142564A98600E795BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB37C3202564A98800E795BA /* Sources */ = {
+		EBF11C8F262FA254009DD012 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB37C3292564A98800E795BA /* DISBYUTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB37C32B2564A98800E795BA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EB37C3342564A98800E795BA /* DISBYUUITests.swift in Sources */,
+				EBF11CC4262FA3F4009DD012 /* IndividualBathroomReviewCell.swift in Sources */,
+				EBF11CC0262FA374009DD012 /* IndividualBathroomReview.swift in Sources */,
+				EBF11C9A262FA254009DD012 /* ViewController.swift in Sources */,
+				EBF11C96262FA254009DD012 /* AppDelegate.swift in Sources */,
+				EBF11C98262FA254009DD012 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EB37C3262564A98800E795BA /* PBXTargetDependency */ = {
+		EBF11CA6262FA256009DD012 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EB37C30D2564A98600E795BA /* DISBYU */;
-			targetProxy = EB37C3252564A98800E795BA /* PBXContainerItemProxy */;
-		};
-		EB37C3312564A98800E795BA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EB37C30D2564A98600E795BA /* DISBYU */;
-			targetProxy = EB37C3302564A98800E795BA /* PBXContainerItemProxy */;
+			target = EBF11C92262FA254009DD012 /* SpecificBathroomAppClip */;
+			targetProxy = EBF11CA5262FA256009DD012 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -308,6 +562,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				EB37C31D2564A98700E795BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EBF11C9B262FA254009DD012 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF11C9C262FA254009DD012 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBF11CA0262FA256009DD012 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF11CA1262FA256009DD012 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -366,7 +636,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +691,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,16 +703,22 @@
 		};
 		EB37C3392564A98800E795BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77ED503F138473326286357E /* Pods-DISBYU.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DISBYU/DISBYU.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.1.9;
 				DEVELOPMENT_TEAM = S8PZT6F65T;
 				INFOPLIST_FILE = DISBYU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.1.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.TrevorSchmidt.DISBYU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -452,16 +728,22 @@
 		};
 		EB37C33A2564A98800E795BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B72D14B5A57E120BA686D9B4 /* Pods-DISBYU.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DISBYU/DISBYU.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.1.9;
 				DEVELOPMENT_TEAM = S8PZT6F65T;
 				INFOPLIST_FILE = DISBYU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.1.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.TrevorSchmidt.DISBYU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -469,87 +751,51 @@
 			};
 			name = Release;
 		};
-		EB37C33C2564A98800E795BA /* Debug */ = {
+		EBF11CA9262FA256009DD012 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8BE69D045DEB46C3FF9E61 /* Pods-DISBYU-SpecificBathroomAppClip.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpecificBathroomAppClip/SpecificBathroomAppClip.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.1.9;
 				DEVELOPMENT_TEAM = S8PZT6F65T;
-				INFOPLIST_FILE = DISBYUTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				INFOPLIST_FILE = SpecificBathroomAppClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TrevorSchmidt.DISBYUTests;
+				MARKETING_VERSION = 2.1.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TrevorSchmidt.DISBYU.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DISBYU.app/DISBYU";
 			};
 			name = Debug;
 		};
-		EB37C33D2564A98800E795BA /* Release */ = {
+		EBF11CAA262FA256009DD012 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0486E88E500C13422541976 /* Pods-DISBYU-SpecificBathroomAppClip.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpecificBathroomAppClip/SpecificBathroomAppClip.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.1.9;
 				DEVELOPMENT_TEAM = S8PZT6F65T;
-				INFOPLIST_FILE = DISBYUTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				INFOPLIST_FILE = SpecificBathroomAppClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TrevorSchmidt.DISBYUTests;
+				MARKETING_VERSION = 2.1.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TrevorSchmidt.DISBYU.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DISBYU.app/DISBYU";
-			};
-			name = Release;
-		};
-		EB37C33F2564A98800E795BA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S8PZT6F65T;
-				INFOPLIST_FILE = DISBYUUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TrevorSchmidt.DISBYUUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DISBYU;
-			};
-			name = Debug;
-		};
-		EB37C3402564A98800E795BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S8PZT6F65T;
-				INFOPLIST_FILE = DISBYUUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TrevorSchmidt.DISBYUUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DISBYU;
 			};
 			name = Release;
 		};
@@ -574,20 +820,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB37C33B2564A98800E795BA /* Build configuration list for PBXNativeTarget "DISBYUTests" */ = {
+		EBF11CA8262FA256009DD012 /* Build configuration list for PBXNativeTarget "SpecificBathroomAppClip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB37C33C2564A98800E795BA /* Debug */,
-				EB37C33D2564A98800E795BA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EB37C33E2564A98800E795BA /* Build configuration list for PBXNativeTarget "DISBYUUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EB37C33F2564A98800E795BA /* Debug */,
-				EB37C3402564A98800E795BA /* Release */,
+				EBF11CA9262FA256009DD012 /* Debug */,
+				EBF11CAA262FA256009DD012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

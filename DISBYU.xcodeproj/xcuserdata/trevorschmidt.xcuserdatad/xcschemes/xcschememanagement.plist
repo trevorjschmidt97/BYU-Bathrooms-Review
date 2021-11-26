@@ -7,7 +7,45 @@
 		<key>DISBYU.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>DISBYUAppClip.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>SpecificBathroomAppClip.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>EB37C30D2564A98600E795BA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB37C3232564A98800E795BA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB37C32E2564A98800E795BA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB971617262A40FE00073D83</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EBF11C92262FA254009DD012</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
